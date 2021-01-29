@@ -2,7 +2,7 @@ baseURL = "https://liven-mv.ru"
 languageCode = "ru-RU"
 title = "Блог Василия Мазепина"
 theme = "octopress"
-disqusShortname = "livenmv"
+disqusShortname = "livenmvru"
 paginate = 6
 [permalinks]
     # Configures post URLs
