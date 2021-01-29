@@ -1,0 +1,55 @@
+baseURL = "https://liven-mv.ru"
+languageCode = "ru-RU"
+title = "Блог Василия Мазепина"
+theme = "octopress"
+disqusShortname = "livenmv"
+paginate = 6
+[permalinks]
+    # Configures post URLs
+    post = "/blog/:year-:month-:day-:title/"
+[params]
+    # If false, all contents of posts will appear on the front page and in pagination
+    truncate = false
+    # This text appears in site header under website title
+    subtitle = "Пишу о том, что кажется интересным"
+    # Author's name (appears in meta tags and under posts)
+    author = "В.Ю."
+
+    # Set to true to hide ReadingTime on posts
+    disableReadingTime = true
+    github = "https://github.com/liven"
+
+
+    # --- Start sidebar options ---
+    # Number of last posts that will be displayed in the sidebar - set to 0 or remove to hide this section
+    sidebarRecentLimit = 0
+
+    # Sidebar header - passed to markdownify so you can write markdown here
+    sidebarHeader = "Sidebar Header"
+
+    # Sidebar text also supports markdown
+    # New lines can be added with </br> or normal markdown (two spaces at the end of line or two new lines).
+    # when adding two new lines, remember to remove the indentation otherwise the new line will be treated as a codeblock
+    sidebarText = """Here's a [link to google](https://www.google.com)
+      </br>
+      Second line
+      </br>
+      Third line
+      This line has two spaces in the end to create a new line using markdown
+      Forth line
+      """
+    # Sidebar menu - if true will add a sidebar menu between sidebar text and recent posts
+    sidebarMenuEnabled = false
+    sidebarMenuHeader = "Мои контакты"
+
+    # Menu
+    # If navigationNewWindow (under [params]) is set to true then all links except root ("/") will open in a new window
+    # If it does not exist or is set to false then links will open in the same window
+#    [[menu.main]]
+#    Name = "Обо мне"
+#    URL = "/about_me"
+#    weight = -6
+    [[menu.main]]
+    Name = "Главная"
+    URL = "/"
+    weight = -7
