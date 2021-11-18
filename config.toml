@@ -9,7 +9,7 @@ paginate = 6
     post = "/blog/:year-:month-:day-:title/"
 [params]
     # If false, all contents of posts will appear on the front page and in pagination
-    truncate = false
+    truncate = true
     # This text appears in site header under website title
     subtitle = "Пишу о том, что кажется интересным"
     # Author's name (appears in meta tags and under posts)
@@ -19,7 +19,7 @@ paginate = 6
     disableReadingTime = true
     github = "https://github.com/liven"
 
-
+    continueReadingText = "Читать далее"
     # --- Start sidebar options ---
     # Number of last posts that will be displayed in the sidebar - set to 0 or remove to hide this section
     sidebarRecentLimit = 0
