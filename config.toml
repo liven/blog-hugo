@@ -4,6 +4,10 @@ title = "Блог Василия Мазепина"
 theme = "octopress"
 disqusShortname = "livenmvru"
 paginate = 6
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 [permalinks]
     # Configures post URLs
     post = "/blog/:year-:month-:day-:title/"
