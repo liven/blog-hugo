@@ -22,6 +22,7 @@ paginate = 6
     # Set to true to hide ReadingTime on posts
     disableReadingTime = true
     github = "https://github.com/liven"
+    twitter = "https://twitter.com/LivenMv"
 
     continueReadingText = "Читать далее"
     # --- Start sidebar options ---

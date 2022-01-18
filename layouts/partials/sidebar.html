@@ -21,6 +21,8 @@
  -->
 
   <!-- Sidebar social network icons -->
+  <section class="odd">
+  <h1>Мои соцсети</h1>
   <ul class="sidebar-nav">
     <li class="sidebar-nav-item">
       {{ with .Site.Params.github }}<a target="_blank" rel="noopener noreferrer" href="{{ . }}" title="{{ . }}"><i class="fa fa-github fa-3x"></i></a>{{ end }}
@@ -44,10 +46,15 @@
     <!-- {{ if .Site.Params.rss }}<a href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="RSS"><i class="fa fa-rss-square fa-3x"></i></a>{{ end }} -->
     </li>
   </ul>
+  </section>
 
   <!-- Sidebar menu - items are read from the config file
        first we check if it is enabled in config file and then start adding items.
        if Site.Params.sidebarNewWindow exists and is set to true then open these links in a new window -->
+  <section class="odd">
+    <h1>Мои твиты</h1>
+    <a class="twitter-timeline" data-lang="ru" href="{{.Site.Params.twitter}}">"Tweets by "LivenMv</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </section>
 
   {{ with .Site.Params.sidebarMenuEnabled }}
     {{ if eq . true }}
