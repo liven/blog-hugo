@@ -12,11 +12,9 @@ draft: false
 * **15.12.2014 - февраль 2015** - Работа в [intaro.ru](https://intaro.ru)
 Должность - PHP программист. Работал над интеграционными решениями проекта [RetailCRM](https://www.retailcrm.ru). Работал со следующими технологиями:
   Symfony 2.8, PHP 5.6, MySQL, Диспетчер очередей Beanstalk. Писал множество интеграций с [RetailCRM](https://www.retailcrm.ru) посредством API V3, а также парсеры XML, XLS, CSV файлов. Была интеграция с почтовым сервером, из писем электронки собирали лиды.
-  Уволился по причине отсутствия роста ЗП.
 * **март 2015 - август 2020** - Работа в [Me-Interactive](https://start-mobile.net). Занимался разработкой заказных веб проектов. Использовал технологии: Symfony3/4, DoctrineORM, MySQL, MongoDB.
 Натягивал готовую верстку на Twig, PHP 7.2, Swagger. Основной стек работ: Разработка API для фронта, документация в NelmioApiDocBundle.
-  Уволился по причине отсутствия профессионального роста, а так же продолжительных задержек по зп. 
-* **август 2020 - настоящее время** - [Лаборатория Инноваций](https://inlb.ru). Занимаюсь внутренними проектами фирмы. Стек технологий: Symfony 5, Postgres, VueJS, Redis, RabbitMQ, Docker(настройка dev среды).
+* **август 2020 - август 2022** - [Лаборатория Инноваций](https://inlb.ru). Занимаюсь внутренними проектами фирмы. Стек технологий: Symfony 5, Postgres, VueJS, Redis, RabbitMQ, Docker(настройка dev среды).
 Работаю над интеграционными решениями для [RetailCRM](https://www.retailcrm.ru) посредством [API V5](https://docs.retailcrm.ru/Developers/API/APIVersions/APIv5), а также [InSales API](https://api.insales.ru/?doc_format=JSON), и даже [МойСклад](https://dev.moysklad.ru/doc/api/remap/1.2/#mojsklad-json-api).
 
 Также являюсь основным разработчиком [API-клиента для работы с сервисом InSales](https://github.com/insales/insales_php_api).
