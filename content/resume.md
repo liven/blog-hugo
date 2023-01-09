@@ -16,6 +16,7 @@ draft: false
 Натягивал готовую верстку на Twig, PHP 7.2, Swagger. Основной стек работ: Разработка API для фронта, документация в NelmioApiDocBundle.
 * **август 2020 - август 2022** - [Лаборатория Инноваций](https://inlb.ru). Занимаюсь внутренними проектами фирмы. Стек технологий: Symfony 5, Postgres, VueJS, Redis, RabbitMQ, Docker(настройка dev среды).
 Работаю над интеграционными решениями для [RetailCRM](https://www.retailcrm.ru) посредством [API V5](https://docs.retailcrm.ru/Developers/API/APIVersions/APIv5), а также [InSales API](https://api.insales.ru/?doc_format=JSON), и даже [МойСклад](https://dev.moysklad.ru/doc/api/remap/1.2/#mojsklad-json-api).
+* **август 2022 - настоящее время** - [Banki.ru](https://banki.ru). Занимаюсь Backend разработкой.
 
 Также являюсь основным разработчиком [API-клиента для работы с сервисом InSales](https://github.com/insales/insales_php_api).
 
