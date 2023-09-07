@@ -1,7 +1,7 @@
 <!-- Partial that generates the header/title for each post -->
 
 <header>
-  <p class="meta">{{ .Date.Format "Jan 2, 2006" }}
+  <p class="meta">{{ .Date.Format "02.01.2006" }}
     {{ if not .Site.Params.disableReadingTime }} - {{ .ReadingTime }} minute read {{ end }}
     {{ if .Site.DisqusShortname }} - <a href="{{ .Permalink | safeURL }}#disqus_thread">Комментарии</a>{{ end }}
 
