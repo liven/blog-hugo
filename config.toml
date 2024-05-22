@@ -51,6 +51,10 @@ paginate = 6
     # If navigationNewWindow (under [params]) is set to true then all links except root ("/") will open in a new window
     # If it does not exist or is set to false then links will open in the same window
     [[menu.main]]
+    Name = "+1 Подкаст"
+    URL = "/podcasts"
+    weight = -5
+    [[menu.main]]
     Name = "Моя работа"
     URL = "/resume"
     weight = -6
