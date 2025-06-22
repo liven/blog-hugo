@@ -3,7 +3,8 @@ languageCode = "ru-RU"
 title = "Блог Василия Мазепина"
 theme = "octopress"
 disqusShortname = "livenmvru"
-paginate = 6
+[pagination]
+   pagerSize = 6
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
