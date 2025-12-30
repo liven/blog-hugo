@@ -16,7 +16,7 @@ draft: false
 Натягивал готовую верстку на Twig, PHP 7.2, Swagger. Основной стек работ: Разработка API для фронта, документация в NelmioApiDocBundle.
 * **август 2020 - август 2022** - [Лаборатория Инноваций](https://inlb.ru). Занимался внутренними проектами фирмы. Стек технологий: Symfony 5, Postgres, VueJS, Redis, RabbitMQ, Docker(настройка dev среды).
 Работаю над интеграционными решениями для [RetailCRM](https://www.retailcrm.ru) посредством [API V5](https://docs.retailcrm.ru/Developers/API/APIVersions/APIv5), а также [InSales API](https://api.insales.ru/?doc_format=JSON), и даже [МойСклад](https://dev.moysklad.ru/doc/api/remap/1.2/#mojsklad-json-api).
-* **август 2022 - июль 2025** - [Banki.ru](https://banki.ru). Занимаюсь Backend разработкой(PHP + полгода Golang).
+* **август 2022 - июль 2025** - [Banki.ru](https://banki.ru). Занимался Backend разработкой(PHP + Golang).
 </br>- Занимался разбиением монолита на микросервисы.
 </br>- Обновление технологического стека Symfony, PHP.
 </br>- Написание bff сервиса на Golang, кастомный вариант KrakenD.
@@ -40,7 +40,8 @@ draft: false
 * ОСь - **Ubuntu, MacOS**
 * IDE - только **PhpStorm**
 * VCS - исключительно **GIT**
-* Фреймворк - исключительно **Symfony**.
+* Фреймворк PHP - исключительно **Symfony**
+* Golang наше всё
 * Часовой пояс: Мск
 * Удаленный режим работы.
 #### Что не приемлю:
@@ -53,6 +54,6 @@ draft: false
 * **Не работаю с МФО.**
 #### Что радует: 
 * отсутствие того, что неприемлемо
-* оплата лицензии на PhpStorm.
-* дружный коллектив собратьев по клавиатуре.
+* оплата лицензии на IDE
+* дружный коллектив собратьев по клавиатуре
 * корпоративы, куда же без них.
