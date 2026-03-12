@@ -48,13 +48,13 @@
   </ul>
   </section>
 
-  {{ with .Site.Taxonomies.tags }}
+  {{ with .Site.Taxonomies.categories }}
   <section class="even">
-    <h1>Теги</h1>
+    <h1>Категории</h1>
     <ul class="sidebar-nav">
         <li class="sidebar-nav-item">
           {{ range $name, $taxonomy := . }}
-          <a href="{{"/tags/" | absURL }}{{$name|urlize|lower}}/" class="sidebar_tag">#{{ $name }}({{ len $taxonomy.Pages }})</a>
+          <a href="{{"/categories/" | absURL }}{{$name|urlize|lower}}/" class="sidebar_tag">#{{ $name }}({{ len $taxonomy.Pages }})</a>
           <br>
           {{ end }}
         </li>
