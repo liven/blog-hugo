@@ -48,6 +48,20 @@
   </ul>
   </section>
 
+  {{ with .Site.Taxonomies.tags }}
+  <section class="even">
+    <h1>Теги</h1>
+    <ul class="sidebar-nav">
+        <li class="sidebar-nav-item">
+          {{ range $name, $taxonomy := . }}
+          <a href="{{"/tags/" | absURL }}{{$name|urlize|lower}}/" class="sidebar_tag">#{{ $name }}({{ len $taxonomy.Pages }})</a>
+          <br>
+          {{ end }}
+        </li>
+    </ul>
+  </section>
+  {{ end }}
+
   <!-- Sidebar social network icons -->
 <!--  <section class="odd">-->
 <!--    <h1>Полезные ссылки</h1>-->
