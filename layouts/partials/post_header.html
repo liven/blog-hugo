@@ -9,7 +9,7 @@
     <!-- in order to make category URLs work, we need to urlize them and
         convert them to lowercase
         e.g. .NET Remoting -urlize-> .NET-Remoting -lowercase-> .net-remoting -->
-      - {{ range .Params.categories }}<a class="label" href="{{ "/categories/" | absURL }}{{ . | urlize | lower }}/">{{ . }} </a>{{ end }}
+      - {{ range .Params.categories }}<a class="label" href="{{ "/categories/" | relURL }}{{ . | urlize | lower }}/">{{ . }} </a>{{ end }}
     {{ end }}
   </p>
   <h1 class="entry-title">

@@ -33,14 +33,14 @@
                 {{ $.Scratch.Set "cats" .Params.categories }}
                 {{ with .Params.categories }}
                 Категории:
-                {{ range ($.Scratch.Get "cats") }} <a class="category" href="{{ "/categories/" | absURL }}{{ . | urlize | lower }}">{{ . }}</a>{{ end }}
+                {{ range ($.Scratch.Get "cats") }} <a class="category" href="{{ "/categories/" | relURL }}{{ . | urlize | lower }}">{{ . }}</a>{{ end }}
               </br>
                 {{ end }}
 
                 {{ $.Scratch.Set "tags" .Params.tags }}
                 {{ with .Params.tags }}
                 Теги:
-                {{ range ($.Scratch.Get "tags") }} <a class="category" href="{{ "/tags/" | absURL }}{{ . | urlize | lower }}">{{ . }}</a>{{ end }}
+                {{ range ($.Scratch.Get "tags") }} <a class="category" href="{{ "/tags/" | relURL }}{{ . | urlize | lower }}">{{ . }}</a>{{ end }}
                 {{ end }}
               </span>
             </footer>
