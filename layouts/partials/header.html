@@ -72,6 +72,10 @@
 </head>
 <body>
 
+{{ if eq .Section "posts" }}
+<div id="progress-read"></div>
+{{ end }}
+
 <!-- top header for octopress -->
 <header role="banner">{{ partial "octo_header.html" . }}</header>
 
