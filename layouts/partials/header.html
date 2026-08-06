@@ -69,6 +69,10 @@
   <noscript><div><img src="https://mc.yandex.ru/watch/33464173" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
   <!-- /Yandex.Metrika counter  -->
 
+    {{ with .Params.noindex }}
+    <meta name="robots" content="noindex">
+    {{ end }}
+
 </head>
 <body>
 
