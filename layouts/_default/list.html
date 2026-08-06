@@ -16,7 +16,9 @@
           </h1>
         </header>
         <div id="blog-archives" class="category">
-          {{ range .Data.Pages }}
+          {{ $pages := where .Pages "Params.noindex" "!=" true }}
+          {{ $pages = where $pages "Params.sitemap.disable" "!=" true }}
+          {{ range $pages }}
           <h2>
             {{ .Date | dateFormat "2006"}}
           </h2>

@@ -26,11 +26,15 @@
 
   <p class="meta">
     {{ with .PrevInSection }}
-        <a class="basic-alignment left" href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
+      {{ if not .Params.noindex }}
+            <a class="basic-alignment left" href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
+      {{ end }}
     {{ end }}
 
     {{ with .NextInSection }}
-      <a class="basic-alignment right" href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
+      {{ if not .Params.noindex }}
+        <a class="basic-alignment right" href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
+      {{ end }}
     {{ end }}
   </p>
   {{ if .Site.Config.Services.Disqus.Shortname }}

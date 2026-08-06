@@ -2,6 +2,7 @@
 title: "Скрытая статья"
 date: 2021-07-04T20:00:00+03:00
 draft: false
+categories: ["Мнения"]
 sitemap:
     disable: true
 noindex: true
